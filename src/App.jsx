@@ -6,6 +6,8 @@ import ComParametro from './components/ComParamentro';
 import Filhos from './components/Filhos';
 import Card from './components/layout/Card';
 import Repeticao from "./components/Repeticao";
+import Condicional from "./components/Condicional"
+import CondicionalIf from "./components/CondicionalIf";
 
 function App(props) {
     return (
@@ -29,6 +31,14 @@ function App(props) {
 
         <Card header="Exercicio 04">
             <Repeticao />
+        </Card>
+
+        <Card header="Exercicio 05">
+            <Condicional numero={88} />
+        </Card>
+
+        <Card header="Exercicio 06">
+            <CondicionalIf numero={10} />
         </Card>
     </div>
     )
